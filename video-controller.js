@@ -13,7 +13,7 @@ wmic path win32_VideoController get name
 Name
 NVIDIA GeForce RTX 4090 Ti
 
-// Linux
+// Linux apt install mesa-utils
 glxinfo | grep -E -i 'device|memory|video'
     GLX_SGI_swap_control, GLX_SGI_video_sync
     Device: D3D12 (NVIDIA GeForce RTX 4090 Ti) (0xffffffff)
